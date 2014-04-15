@@ -21,6 +21,7 @@
         "es5-shimify": ">0.0.0",
         "json2ify": ">0.0.0",
         "moment": ">0.0.0",
+        "coffee-script": ">0.0.0",
         "uritemplate": ">0.0.0"
     }
 }
