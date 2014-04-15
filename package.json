@@ -1,0 +1,26 @@
+{
+    "name": "trinity",
+    "description": "PAC Amodeus style framework",
+    "main": "./lib/trinity",
+    "author": "Richard Hundt",
+    "version": "0.0.1",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/richardhundt/trinity.git"
+    },
+    "bugs" : {
+        "url" : "https://github.com/richardhundt/trinity/issues"
+    },
+    "licenses" : [
+        {
+            "type" : "MIT"
+        }
+    ],
+    "devDependencies": {
+        "tv4": ">0.0.0",
+        "es5-shimify": ">0.0.0",
+        "json2ify": ">0.0.0",
+        "moment": ">0.0.0",
+        "uritemplate": ">0.0.0"
+    }
+}

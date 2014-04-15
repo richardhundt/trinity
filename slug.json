@@ -1,0 +1,24 @@
+{
+  "server": {
+    "port"  : 9294
+  },
+
+  "routes": [
+    { "" : "./public" }
+  ],
+
+  "packages": {
+    "trinity": {
+      "libs" : [ ],
+      "modules" : [
+        "tv4",
+        "es5-shimify",
+        "json2ify",
+        "moment",
+        "uritemplate"
+      ],
+      "paths"  : ["./src"],
+      "target" : "./lib/trinity.js"
+    }
+  }
+}
